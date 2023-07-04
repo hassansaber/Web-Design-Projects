@@ -9,6 +9,11 @@ body {
   border-top: #1098ad 10px solid;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
@@ -32,6 +37,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -146,6 +152,11 @@ a:active {
   font-style: italic;
 }
 /* LVHA */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
 
 /* Selector Conflict */
 /* #copyright {
