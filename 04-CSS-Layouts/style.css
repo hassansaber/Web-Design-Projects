@@ -28,7 +28,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -38,7 +38,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -313,8 +313,8 @@ footer {
 }
 */
 
-/* FLEXBOX */
-/* .main-header {
+/* FLEXBOX  Components*/
+.main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -347,7 +347,9 @@ footer {
   display: inline-block;
   margin-bottom: 5px;
 }
-.row {
+
+/* FlexBox Layout */
+/* .row {
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
@@ -361,4 +363,22 @@ article {
   margin-bottom: 0;
 } */
 
-/* CSS GRID */
+/* CSS GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+.main-header {
+  grid-column: 1/-1;
+}
+article {
+}
+aside {
+  /* align-self: start;  */
+}
+footer {
+  grid-column: 1/-1;
+}
