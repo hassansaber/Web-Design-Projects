@@ -77,8 +77,9 @@ body {
 .more-info:link,
 .more-info:visited {
   color: #000;
-  margin-bottom: 30px;
+
   display: inline-block;
+  margin-bottom: 30px;
 }
 .more-info:hover,
 .more-info:active {
@@ -132,11 +133,11 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-size: 20px;
-  border: none;
   cursor: pointer;
   border-top: #000 solid 4px;
+
   width: 100%;
-  padding: 15px;
+  padding: 15px 0;
 
   grid-column: 1 / -1;
 }
