@@ -126,3 +126,47 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+#######
+
+## sections
+
+- Navigation
+- Hero\
+  About Omnifood
+  Branding
+  Omnifood Website Content
+  Summary
+- Features\
+  Omnifood feature
+- How it works\
+  How Omnifood works
+- Diets\
+  Omnifood works with any diet
+- Meals\
+  Sample meals
+- CTA \
+  We offer a free sample meal
+- Pricing\
+  We have 2 pricing plans
+- Gallery\
+  Photo gallery
+- Testimonials\
+- Featured in\
+  Customer testimonials
+  Section with logos of featured publications [see images]
+- Footer\
+  Contact information
+  Additional links [links not available yet]
+
+## Section reOrder
+
+- Logo + Navigation
+- Hero
+- Featured in
+- How it works
+- Meals (and list of Diets)
+- Testimonials + gallery
+- Pricing + features
+- CTA
+- Footer
